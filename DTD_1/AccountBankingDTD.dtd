@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT banking (account+)>
+<!ELEMENT account (username, branch, accounttype, cardtype, useraddress)>
+<!ELEMENT username (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT accounttype (#PCDATA)>
+<!ELEMENT cardtype (#PCDATA)>
+<!ELEMENT useraddress (#PCDATA)>
+<!ATTLIST account id CDATA #REQUIRED>

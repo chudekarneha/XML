@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<banking xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <account id="123456789">
+	 <username>Neha</username>
+	 <branch>Newport</branch>
+	 <accounttype>Checking Account</accounttype>
+	 <cardtype>credit card</cardtype>
+	 <useraddress>444 Blvd, New Jersey City</useraddress>
+  </account>
+  <account id="234567891">
+	 <username>John</username>
+	 <branch>New York</branch>
+	 <accounttype>Savings Account</accounttype>
+	 <cardtype>debit card</cardtype>
+	 <useraddress>Fullton Street, New York</useraddress>
+  </account>
+  <account id="345678912">
+	 <username>Rhea</username>
+	 <branch>Jersey City</branch>
+	 <accounttype>Checking Account</accounttype>
+	 <cardtype>debit card</cardtype>
+	 <useraddress>New Jersey City</useraddress>
+  </account>
+</banking>
