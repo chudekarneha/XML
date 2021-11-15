@@ -17,7 +17,10 @@ public class DomParserSchema
 	 String xml_Name = "AccountBanking.xml";
 	 Schema schema = loadSchema(schema_Name);
 	 Document doc = parseXmlDom(xml_Name);
-	 validateXml(schema, doc);
+	 if(doc!=null)
+	 {
+		 validateXml(schema, doc);
+	 }
  }
  
  public static void validateXml(Schema schema, Document doc) 
