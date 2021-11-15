@@ -41,7 +41,7 @@ Procedure to run these applications:
 
 Clone this project in your local computer using git command or using download zip option.
 
-    git clone https://github.com/chudekarneha/XML.git
+    git clone https://github.com/chudekarneha/XML
 
   or
 
